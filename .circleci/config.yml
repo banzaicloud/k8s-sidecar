@@ -51,6 +51,6 @@ workflows:
                       version: ${CIRCLE_TAG//\//_}
           filters:
             tags:
-              only: /^v?[0-9]+\.[0-9]+\.[0-9]+(?:-(?:dev|rc|alpha|beta)\.[0-9]+)?$/
+              only: /^v?[0-9]+\.[0-9]+\.[0-9]+-bzc(?:-(?:dev|rc|alpha|beta)\.[0-9]+)?$/
             branches:
               ignore: /.*/
